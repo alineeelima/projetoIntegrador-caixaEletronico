@@ -20,11 +20,6 @@ public class Main {
             escolha = entrada.nextInt();
             System.out.println("");
 
-            if (escolha != 1 && escolha != 2 && escolha != 3 && escolha != 4){
-                System.out.println("Opção inválida!");
-                System.out.println("");
-            }
-
             if (escolha == 1){
                 System.out.println("O seu saldo disponível é de: R$"+ saldo);
                 System.out.println("");
