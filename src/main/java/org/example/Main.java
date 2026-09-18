@@ -50,8 +50,11 @@ public class Main {
                     System.out.println("Saque realizado com sucesso!");
                     System.out.println("");
                 }
-            }else{
+            }else if(escolha == 4){
                 System.out.println("Saindo do sistema...");
+            }else{
+                System.out.println("Opção inválida!");
+                System.out.println("");
             }
         }
     }
